@@ -111,7 +111,7 @@ int giveAd(){
   }
   sort(rlist.begin(),rlist.end(),cmp);
   for(i=0;i<rlist.size();i++){
-      cout<<rlist[i].name<<endl;
+      cout<<rlist[i].name<<",  相似度"<<rlist[i].score<<endl;
   }
   
 }
